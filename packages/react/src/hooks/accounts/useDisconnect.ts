@@ -1,4 +1,4 @@
-import { disconnect } from '@wagmi/core'
+import { disconnect } from '@klaytn/wagmi-core'
 
 import { useMutation } from '../utils'
 

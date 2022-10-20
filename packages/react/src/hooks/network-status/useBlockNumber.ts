@@ -2,8 +2,8 @@ import {
   FetchBlockNumberArgs,
   FetchBlockNumberResult,
   fetchBlockNumber,
-} from '@wagmi/core'
-import { debounce } from '@wagmi/core/internal'
+} from '@klaytn/wagmi-core'
+import { debounce } from '@klaytn/wagmi-core/internal'
 import * as React from 'react'
 
 import { QueryConfig, QueryFunctionArgs } from '../../types'

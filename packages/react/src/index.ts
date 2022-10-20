@@ -78,7 +78,7 @@ export {
   infuraRpcUrls,
   publicRpcUrls,
   readContracts,
-} from '@wagmi/core'
+} from '@klaytn/wagmi-core'
 export type {
   Chain,
   ChainProviderFn,
@@ -86,6 +86,6 @@ export type {
   ConnectorEvents,
   Storage,
   Unit,
-} from '@wagmi/core'
+} from '@klaytn/wagmi-core'
 
 export type { Address } from 'abitype'

@@ -1,4 +1,8 @@
-import { SignMessageArgs, SignMessageResult, signMessage } from '@wagmi/core'
+import {
+  SignMessageArgs,
+  SignMessageResult,
+  signMessage,
+} from '@klaytn/wagmi-core'
 import * as React from 'react'
 
 import { MutationConfig } from '../../types'

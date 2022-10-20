@@ -1,12 +1,11 @@
-import { act } from '@testing-library/react'
-
 import {
   Connector,
   Provider,
   WebSocketProvider,
   defaultChains,
-} from '@wagmi/core'
-import { MockConnector } from '@wagmi/core/connectors/mock'
+} from '@klaytn/wagmi-core'
+import { MockConnector } from '@klaytn/wagmi-core/connectors/mock'
+import { act } from '@testing-library/react'
 import { expect } from 'vitest'
 
 import { renderHook } from '.'

@@ -1,4 +1,4 @@
 {
-  "main": "dist/wagmi-providers-alchemy.cjs.js",
-  "module": "dist/wagmi-providers-alchemy.esm.js"
+  "main": "dist/klaytn-wagmi-providers-alchemy.cjs.js",
+  "module": "dist/klaytn-wagmi-providers-alchemy.esm.js"
 }

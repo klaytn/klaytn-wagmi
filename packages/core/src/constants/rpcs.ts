@@ -87,6 +87,8 @@ type PublicChains = Extract<
   | 'arbitrum'
   | 'arbitrumRinkeby'
   | 'arbitrumGoerli'
+  | 'klaytn'
+  | 'klaytnBaobab'
 >
 export const publicRpcUrls: Record<PublicChains, string> = {
   mainnet: `${alchemyRpcUrls.mainnet}/${defaultAlchemyApiKey}`,
@@ -103,4 +105,6 @@ export const publicRpcUrls: Record<PublicChains, string> = {
   arbitrum: 'https://arb1.arbitrum.io/rpc',
   arbitrumRinkeby: 'https://rinkeby.arbitrum.io/rpc',
   arbitrumGoerli: 'https://goerli-rollup.arbitrum.io/rpc',
+  klaytn: 'https://public-node-api.klaytnapi.com/v1/cypress',
+  klaytnBaobab: 'https://public-node-api.klaytnapi.com/v1/baobab',
 } as const

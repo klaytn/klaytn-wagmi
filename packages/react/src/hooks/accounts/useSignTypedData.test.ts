@@ -1,4 +1,4 @@
-import { MockConnector } from '@wagmi/core/connectors/mock'
+import { MockConnector } from '@klaytn/wagmi-core/connectors/mock'
 import { TypedData } from 'abitype'
 import { verifyTypedData } from 'ethers/lib/utils'
 import { describe, expect, it, vi } from 'vitest'

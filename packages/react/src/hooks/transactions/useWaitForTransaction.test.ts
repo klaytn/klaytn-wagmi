@@ -1,4 +1,4 @@
-import { Hash } from '@wagmi/core'
+import { Hash } from '@klaytn/wagmi-core'
 import { parseEther } from 'ethers/lib/utils'
 import { describe, expect, it } from 'vitest'
 

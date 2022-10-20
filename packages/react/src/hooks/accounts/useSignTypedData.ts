@@ -2,8 +2,8 @@ import {
   SignTypedDataArgs,
   SignTypedDataResult,
   signTypedData,
-} from '@wagmi/core'
-import { Optional } from '@wagmi/core/internal'
+} from '@klaytn/wagmi-core'
+import { Optional } from '@klaytn/wagmi-core/internal'
 import { TypedData } from 'abitype'
 import * as React from 'react'
 

@@ -20,6 +20,8 @@ export const chainId = {
   localhost: 1_337,
   hardhat: 31_337,
   foundry: 31_337,
+  klaytn: 8217,
+  klaytnBaobab: 1001,
 } as const
 export type ChainName = keyof typeof chainId
 
@@ -372,6 +374,41 @@ export const arbitrumGoerli: Chain = {
   testnet: true,
 }
 
+export const klaytn: Chain = {
+  id: chainId.klaytn,
+  name: 'Klaytn',
+  network: 'cypress',
+  nativeCurrency: { name: 'KLAY', symbol: 'KLAY', decimals: 18 },
+  rpcUrls: {
+    public: publicRpcUrls.klaytn,
+    default: publicRpcUrls.klaytn,
+  },
+  blockExplorers: {
+    etherscan: etherscanBlockExplorers.klaytn,
+    default: etherscanBlockExplorers.klaytn,
+  },
+  multicall: {
+    address: '0xca11bde05977b3631167028862be2a173976ca11',
+    blockCreated: 96002415,
+  },
+}
+
+export const klaytnBaobab: Chain = {
+  id: chainId.klaytnBaobab,
+  name: 'klaytnBaobab',
+  network: 'baobab',
+  nativeCurrency: { name: 'KLAY', symbol: 'KLAY', decimals: 18 },
+  rpcUrls: {
+    public: publicRpcUrls.klaytnBaobab,
+    default: publicRpcUrls.klaytnBaobab,
+  },
+  blockExplorers: {
+    default: etherscanBlockExplorers.klaytnBaobab,
+    etherscan: etherscanBlockExplorers.klaytnBaobab,
+  },
+  testnet: true,
+}
+
 export const localhost: Chain = {
   id: chainId.localhost,
   name: 'Localhost',
@@ -421,6 +458,8 @@ export const chain = {
   localhost,
   hardhat,
   foundry,
+  klaytn,
+  klaytnBaobab,
 } as const
 
 export const allChains = [
@@ -441,9 +480,19 @@ export const allChains = [
   localhost,
   hardhat,
   foundry,
+  klaytn,
+  klaytnBaobab,
 ]
 
-export const defaultChains: Chain[] = [mainnet, ropsten, rinkeby, goerli, kovan]
+export const defaultChains: Chain[] = [
+  mainnet,
+  ropsten,
+  rinkeby,
+  goerli,
+  kovan,
+  klaytn,
+  klaytnBaobab,
+]
 
 export const defaultL2Chains: Chain[] = [
   arbitrum,

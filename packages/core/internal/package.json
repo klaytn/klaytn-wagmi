@@ -1,4 +1,4 @@
 {
-  "main": "dist/wagmi-core-internal.cjs.js",
-  "module": "dist/wagmi-core-internal.esm.js"
+  "main": "dist/klaytn-wagmi-core-internal.cjs.js",
+  "module": "dist/klaytn-wagmi-core-internal.esm.js"
 }

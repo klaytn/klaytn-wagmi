@@ -1,5 +1,5 @@
-import { connect } from '@wagmi/core'
-import { MockConnector } from '@wagmi/core/connectors/mock'
+import { connect } from '@klaytn/wagmi-core'
+import { MockConnector } from '@klaytn/wagmi-core/connectors/mock'
 import { describe, expect, it } from 'vitest'
 
 import {

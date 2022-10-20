@@ -1,4 +1,4 @@
-import { ConnectArgs, ConnectResult, connect } from '@wagmi/core'
+import { ConnectArgs, ConnectResult, connect } from '@klaytn/wagmi-core'
 import * as React from 'react'
 
 import { useClient } from '../../context'

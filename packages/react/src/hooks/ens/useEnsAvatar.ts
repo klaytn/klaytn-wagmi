@@ -2,7 +2,7 @@ import {
   FetchEnsAvatarArgs,
   FetchEnsAvatarResult,
   fetchEnsAvatar,
-} from '@wagmi/core'
+} from '@klaytn/wagmi-core'
 
 import { QueryConfig, QueryFunctionArgs } from '../../types'
 import { useChainId, useQuery } from '../utils'

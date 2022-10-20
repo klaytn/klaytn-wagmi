@@ -18,6 +18,8 @@ type EtherscanChains = Extract<
   | 'arbitrum'
   | 'arbitrumRinkeby'
   | 'arbitrumGoerli'
+  | 'klaytn'
+  | 'klaytnBaobab'
 >
 export const etherscanBlockExplorers: Record<EtherscanChains, BlockExplorer> = {
   mainnet: {
@@ -63,4 +65,12 @@ export const etherscanBlockExplorers: Record<EtherscanChains, BlockExplorer> = {
   arbitrum: { name: 'Arbiscan', url: 'https://arbiscan.io' },
   arbitrumRinkeby: { name: 'Arbiscan', url: 'https://testnet.arbiscan.io' },
   arbitrumGoerli: { name: 'Arbiscan', url: 'https://goerli.arbiscan.io' },
+  klaytn: {
+    name: 'Klaytnfinder',
+    url: 'https://www.klaytnfinder.io',
+  },
+  klaytnBaobab: {
+    name: 'Klaytnfinder',
+    url: 'https://www.klaytnfinder.io',
+  },
 } as const

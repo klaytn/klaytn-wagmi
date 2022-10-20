@@ -1,4 +1,8 @@
-import { FetchBalanceArgs, FetchBalanceResult, fetchBalance } from '@wagmi/core'
+import {
+  FetchBalanceArgs,
+  FetchBalanceResult,
+  fetchBalance,
+} from '@klaytn/wagmi-core'
 import * as React from 'react'
 
 import { QueryConfig, QueryFunctionArgs } from '../../types'

@@ -3,7 +3,7 @@ import {
   WebSocketProvider,
   getWebSocketProvider,
   watchWebSocketProvider,
-} from '@wagmi/core'
+} from '@klaytn/wagmi-core'
 import { useSyncExternalStoreWithSelector } from 'use-sync-external-store/shim/with-selector.js'
 
 export type UseWebSocketProviderArgs = Partial<GetWebSocketProviderArgs>

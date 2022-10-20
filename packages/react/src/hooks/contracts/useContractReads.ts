@@ -4,7 +4,7 @@ import {
   deepEqual,
   parseContractResult,
   readContracts,
-} from '@wagmi/core'
+} from '@klaytn/wagmi-core'
 import { Abi, Address } from 'abitype'
 import * as React from 'react'
 

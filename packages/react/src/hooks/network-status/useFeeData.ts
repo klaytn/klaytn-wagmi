@@ -1,4 +1,8 @@
-import { FetchFeeDataArgs, FetchFeeDataResult, fetchFeeData } from '@wagmi/core'
+import {
+  FetchFeeDataArgs,
+  FetchFeeDataResult,
+  fetchFeeData,
+} from '@klaytn/wagmi-core'
 import * as React from 'react'
 
 import { QueryConfig, QueryFunctionArgs } from '../../types'

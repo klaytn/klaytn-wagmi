@@ -1,4 +1,4 @@
 {
-  "main": "dist/wagmi-connectors-mock.cjs.js",
-  "module": "dist/wagmi-connectors-mock.esm.js"
+  "main": "dist/klaytn-wagmi-connectors-mock.cjs.js",
+  "module": "dist/klaytn-wagmi-connectors-mock.esm.js"
 }

@@ -1,1 +1,1 @@
-export { MockConnector } from '@wagmi/core/connectors/mock'
+export { MockConnector } from '@klaytn/wagmi-core/connectors/mock'

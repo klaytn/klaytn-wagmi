@@ -1,4 +1,4 @@
-import { MockConnector } from '@wagmi/core/connectors/mock'
+import { MockConnector } from '@klaytn/wagmi-core/connectors/mock'
 import { describe, expect, it, vi } from 'vitest'
 
 import { act, getSigners, renderHook, useAccount } from '../../../test'

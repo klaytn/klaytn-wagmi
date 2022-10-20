@@ -1,0 +1,4 @@
+{
+  "main": "dist/klaytn-wagmi-connectors-kaikas.cjs.js",
+  "module": "dist/klaytn-wagmi-connectors-kaikas.esm.js"
+}

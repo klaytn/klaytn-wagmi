@@ -16,4 +16,6 @@ export {
   polygonMumbai,
   rinkeby,
   ropsten,
-} from '@wagmi/core/chains'
+  klaytn,
+  klaytnBaobab,
+} from '@klaytn/wagmi-core/chains'

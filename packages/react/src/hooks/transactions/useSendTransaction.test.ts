@@ -1,5 +1,5 @@
 import { TransactionResponse } from '@ethersproject/providers'
-import { MockConnector } from '@wagmi/core/connectors/mock'
+import { MockConnector } from '@klaytn/wagmi-core/connectors/mock'
 import { parseEther } from 'ethers/lib/utils'
 import { describe, expect, it } from 'vitest'
 

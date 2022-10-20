@@ -2,7 +2,7 @@ import {
   SwitchNetworkArgs,
   SwitchNetworkResult,
   switchNetwork,
-} from '@wagmi/core'
+} from '@klaytn/wagmi-core'
 import * as React from 'react'
 
 import { useClient } from '../../context'

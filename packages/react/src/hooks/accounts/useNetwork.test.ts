@@ -1,4 +1,4 @@
-import { connect } from '@wagmi/core'
+import { connect } from '@klaytn/wagmi-core'
 import { describe, expect, it } from 'vitest'
 
 import {
