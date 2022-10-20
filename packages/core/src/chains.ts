@@ -16,4 +16,6 @@ export {
   polygonMumbai,
   rinkeby,
   ropsten,
+  klaytn,
+  klaytnBaobab,
 } from './constants/chains'

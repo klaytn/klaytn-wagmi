@@ -22,6 +22,8 @@ it('should expose correct exports', () => {
       "polygonMumbai",
       "rinkeby",
       "ropsten",
+      "klaytn",
+      "klaytnBaobab",
     ]
   `)
 })

@@ -1,4 +1,4 @@
 {
-  "main": "dist/wagmi-connectors-walletConnect.cjs.js",
-  "module": "dist/wagmi-connectors-walletConnect.esm.js"
+  "main": "dist/klaytn-wagmi-connectors-walletConnect.cjs.js",
+  "module": "dist/klaytn-wagmi-connectors-walletConnect.esm.js"
 }

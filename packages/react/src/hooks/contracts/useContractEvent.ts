@@ -4,7 +4,7 @@ import {
   IsNever,
   NotEqual,
   Or,
-} from '@wagmi/core/internal'
+} from '@klaytn/wagmi-core/internal'
 import {
   Abi,
   AbiEvent,

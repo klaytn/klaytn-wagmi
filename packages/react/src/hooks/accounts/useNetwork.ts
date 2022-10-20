@@ -1,4 +1,4 @@
-import { getNetwork, watchNetwork } from '@wagmi/core'
+import { getNetwork, watchNetwork } from '@klaytn/wagmi-core'
 
 import { useSyncExternalStoreWithTracked } from '../utils'
 

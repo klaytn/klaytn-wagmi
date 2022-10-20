@@ -1,4 +1,4 @@
-import { useAccount, useConnect, useDisconnect } from 'wagmi'
+import { useAccount, useConnect, useDisconnect } from '@klaytn/wagmi'
 
 export function Connect() {
   const { connector, isConnected } = useAccount()

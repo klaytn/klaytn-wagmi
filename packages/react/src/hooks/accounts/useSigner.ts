@@ -4,7 +4,7 @@ import {
   Signer,
   fetchSigner,
   watchSigner,
-} from '@wagmi/core'
+} from '@klaytn/wagmi-core'
 import * as React from 'react'
 
 import { QueryConfig, QueryFunctionArgs } from '../../types'

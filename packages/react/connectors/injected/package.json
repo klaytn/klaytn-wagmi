@@ -1,4 +1,4 @@
 {
-  "main": "dist/wagmi-connectors-injected.cjs.js",
-  "module": "dist/wagmi-connectors-injected.esm.js"
+  "main": "dist/klaytn-wagmi-connectors-injected.cjs.js",
+  "module": "dist/klaytn-wagmi-connectors-injected.esm.js"
 }

@@ -1,4 +1,8 @@
-import { FetchTokenArgs, FetchTokenResult, fetchToken } from '@wagmi/core'
+import {
+  FetchTokenArgs,
+  FetchTokenResult,
+  fetchToken,
+} from '@klaytn/wagmi-core'
 
 import { QueryConfig, QueryFunctionArgs } from '../../types'
 import { useChainId, useQuery } from '../utils'

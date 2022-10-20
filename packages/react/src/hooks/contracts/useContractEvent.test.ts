@@ -1,4 +1,4 @@
-import { Hash, erc20ABI } from '@wagmi/core'
+import { Hash, erc20ABI } from '@klaytn/wagmi-core'
 import {
   Abi,
   ExtractAbiEventNames,

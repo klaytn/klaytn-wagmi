@@ -3,8 +3,8 @@ import {
   ReadContractsResult,
   deepEqual,
   readContracts,
-} from '@wagmi/core'
-import { ContractsConfig } from '@wagmi/core/internal'
+} from '@klaytn/wagmi-core'
+import { ContractsConfig } from '@klaytn/wagmi-core/internal'
 import { Abi } from 'abitype'
 import * as React from 'react'
 

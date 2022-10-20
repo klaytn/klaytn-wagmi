@@ -3,7 +3,7 @@ import {
   PrepareWriteContractConfig,
   PrepareWriteContractResult,
   prepareWriteContract,
-} from '@wagmi/core'
+} from '@klaytn/wagmi-core'
 import { Abi } from 'abitype'
 import { Signer, providers } from 'ethers'
 

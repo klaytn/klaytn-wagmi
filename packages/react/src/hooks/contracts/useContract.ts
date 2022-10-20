@@ -1,4 +1,8 @@
-import { GetContractArgs, GetContractResult, getContract } from '@wagmi/core'
+import {
+  GetContractArgs,
+  GetContractResult,
+  getContract,
+} from '@klaytn/wagmi-core'
 import { Abi } from 'abitype'
 
 import * as React from 'react'

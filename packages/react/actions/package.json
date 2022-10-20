@@ -1,4 +1,4 @@
 {
-  "main": "dist/wagmi-actions.cjs.js",
-  "module": "dist/wagmi-actions.esm.js"
+  "main": "dist/klaytn-wagmi-actions.cjs.js",
+  "module": "dist/klaytn-wagmi-actions.esm.js"
 }

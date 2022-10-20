@@ -1,1 +1,1 @@
-export { jsonRpcProvider } from '@wagmi/core/providers/jsonRpc'
+export { jsonRpcProvider } from '@klaytn/wagmi-core/providers/jsonRpc'

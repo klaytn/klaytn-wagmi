@@ -1,4 +1,4 @@
-import { chain } from '@wagmi/core'
+import { chain } from '@klaytn/wagmi-core'
 import { rest } from 'msw'
 import { setupServer } from 'msw/node'
 import { afterAll, afterEach, beforeAll, describe, expect, it } from 'vitest'

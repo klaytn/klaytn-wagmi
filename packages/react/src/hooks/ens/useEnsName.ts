@@ -1,4 +1,8 @@
-import { FetchEnsNameArgs, FetchEnsNameResult, fetchEnsName } from '@wagmi/core'
+import {
+  FetchEnsNameArgs,
+  FetchEnsNameResult,
+  fetchEnsName,
+} from '@klaytn/wagmi-core'
 
 import { QueryConfig, QueryFunctionArgs } from '../../types'
 import { useChainId, useQuery } from '../utils'

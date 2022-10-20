@@ -253,5 +253,6 @@ export interface Ethereum extends InjectedProviders {
 declare global {
   interface Window {
     ethereum?: Ethereum
+    klaytn?: any
   }
 }

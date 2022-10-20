@@ -1,1 +1,1 @@
-export { publicProvider } from '@wagmi/core/providers/public'
+export { publicProvider } from '@klaytn/wagmi-core/providers/public'

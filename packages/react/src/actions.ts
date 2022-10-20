@@ -37,7 +37,7 @@ export {
   watchSigner,
   watchWebSocketProvider,
   writeContract,
-} from '@wagmi/core'
+} from '@klaytn/wagmi-core'
 export type {
   ConnectArgs,
   ConnectResult,
@@ -103,4 +103,4 @@ export type {
   WriteContractPreparedArgs,
   WriteContractResult,
   WriteContractUnpreparedArgs,
-} from '@wagmi/core'
+} from '@klaytn/wagmi-core'

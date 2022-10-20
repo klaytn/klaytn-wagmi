@@ -1,4 +1,4 @@
-import { erc20ABI } from '@wagmi/core'
+import { erc20ABI } from '@klaytn/wagmi-core'
 import { describe, expect, it } from 'vitest'
 
 import { getProvider, renderHook } from '../../../test'

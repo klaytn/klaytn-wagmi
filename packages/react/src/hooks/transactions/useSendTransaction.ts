@@ -4,7 +4,7 @@ import {
   SendTransactionResult,
   SendTransactionUnpreparedRequest,
   sendTransaction,
-} from '@wagmi/core'
+} from '@klaytn/wagmi-core'
 import * as React from 'react'
 
 import { MutationConfig } from '../../types'

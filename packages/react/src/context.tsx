@@ -1,5 +1,5 @@
+import { Provider, WebSocketProvider } from '@klaytn/wagmi-core'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
-import { Provider, WebSocketProvider } from '@wagmi/core'
 import * as React from 'react'
 
 import { Client } from './client'

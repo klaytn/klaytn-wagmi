@@ -1,1 +1,1 @@
-export { MetaMaskConnector } from '@wagmi/core/connectors/metaMask'
+export { MetaMaskConnector } from '@klaytn/wagmi-core/connectors/metaMask'

@@ -1,4 +1,4 @@
 {
-  "main": "dist/wagmi-core-providers-infura.cjs.js",
-  "module": "dist/wagmi-core-providers-infura.esm.js"
+  "main": "dist/klaytn-wagmi-core-providers-infura.cjs.js",
+  "module": "dist/klaytn-wagmi-core-providers-infura.esm.js"
 }

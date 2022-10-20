@@ -4,7 +4,7 @@ import {
   PrepareSendTransactionResult,
   deepEqual,
   prepareSendTransaction,
-} from '@wagmi/core'
+} from '@klaytn/wagmi-core'
 import { providers } from 'ethers'
 
 import { QueryConfig, QueryFunctionArgs } from '../../types'
