@@ -2,10 +2,10 @@
   "name": "@klaytn/wagmi-core",
   "description": "Vanilla JS library for Ethereum",
   "license": "WAGMIT",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wagmi-dev/wagmi.git",
+    "url": "https://github.com/klaytn/klaytn-wagmi.git",
     "directory": "packages/core"
   },
   "author": "awkweb.eth",
