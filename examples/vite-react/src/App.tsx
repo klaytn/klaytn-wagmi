@@ -1,4 +1,4 @@
-import { useAccount } from 'wagmi'
+import { useAccount } from '@klaytn/wagmi'
 
 import { Account, Connect, NetworkSwitcher } from './components'
 
