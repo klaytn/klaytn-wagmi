@@ -13,8 +13,10 @@ jobs:
         node-version: 16
     - name: Insatll pnpm
       run: npm install -g pnpm
-    - name: Install dependency, build package
-      run: pnpm install
+    - name: Install dependency
+      run: pnpm install 
+    - name: Build package
+      run: pnpm build
     - name: Publish package to npm.js
       run: |
         pnpm config set "//registry.npmjs.org/:_authToken" "${NPM_TOKEN}"
