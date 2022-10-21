@@ -1,0 +1,23 @@
+name: Publish NPM package
+on:
+  push:
+    tags:
+     - v**
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-node@v3
+      with:
+        node-version: 16
+    - name: Insatll pnpm
+      run: npm install -g pnpm
+    - name: Install dependency, build package
+      run: pnpm install
+    - name: Publish package to npm.js
+      run: |
+        pnpm config set "//registry.npmjs.org/:_authToken" "${NPM_TOKEN}"
+        pnpm -r publish --access public --no-git-checks
+      env: 
+        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
