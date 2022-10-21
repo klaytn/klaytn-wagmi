@@ -1,4 +1,4 @@
-import { useNetwork, useSwitchNetwork } from 'wagmi'
+import { useNetwork, useSwitchNetwork } from '@klaytn/wagmi'
 
 export function NetworkSwitcher() {
   const { chain } = useNetwork()

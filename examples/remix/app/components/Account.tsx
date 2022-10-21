@@ -1,4 +1,4 @@
-import { useAccount, useEnsName } from 'wagmi'
+import { useAccount, useEnsName } from '@klaytn/wagmi'
 
 export function Account() {
   const { address } = useAccount()

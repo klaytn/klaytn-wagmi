@@ -1,4 +1,18 @@
+import {
+  WagmiConfig,
+  configureChains,
+  createClient,
+  defaultChains,
+} from '@klaytn/wagmi'
+import { CoinbaseWalletConnector } from '@klaytn/wagmi/connectors/coinbaseWallet'
+import { InjectedConnector } from '@klaytn/wagmi/connectors/injected'
+import { KaikasWalletConnector } from '@klaytn/wagmi/connectors/kaikas'
+import { MetaMaskConnector } from '@klaytn/wagmi/connectors/metaMask'
+import { WalletConnectConnector } from '@klaytn/wagmi/connectors/walletConnect'
+import { alchemyProvider } from '@klaytn/wagmi/providers/alchemy'
+import { publicProvider } from '@klaytn/wagmi/providers/public'
 import { useMemo } from 'react'
+import type { MetaFunction } from 'remix'
 import {
   Links,
   LiveReload,
@@ -8,19 +22,6 @@ import {
   ScrollRestoration,
   useLoaderData,
 } from 'remix'
-import type { MetaFunction } from 'remix'
-
-import {
-  WagmiConfig,
-  configureChains,
-  createClient,
-  defaultChains,
-} from 'wagmi'
-import { CoinbaseWalletConnector } from 'wagmi/connectors/coinbaseWallet'
-import { InjectedConnector } from 'wagmi/connectors/injected'
-import { MetaMaskConnector } from 'wagmi/connectors/metaMask'
-import { WalletConnectConnector } from 'wagmi/connectors/walletConnect'
-import { alchemyProvider } from 'wagmi/providers/alchemy'
 
 export function loader() {
   require('dotenv').config()
@@ -39,7 +40,7 @@ export default function App() {
   const client = useMemo(() => {
     const { chains, provider, webSocketProvider } = configureChains(
       defaultChains,
-      [alchemyProvider({ apiKey: alchemyApiKey })],
+      [alchemyProvider({ apiKey: alchemyApiKey }), publicProvider()],
     )
 
     return createClient({
@@ -63,6 +64,12 @@ export default function App() {
           options: {
             name: 'Injected',
             shimDisconnect: true,
+          },
+        }),
+        new KaikasWalletConnector({
+          chains,
+          options: {
+            appName: 'wagmi',
           },
         }),
       ],
