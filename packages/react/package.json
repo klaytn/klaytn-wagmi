@@ -2,10 +2,10 @@
   "name": "@klaytn/wagmi",
   "description": "React Hooks for Ethereum",
   "license": "WAGMIT",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wagmi-dev/wagmi.git",
+    "url": "https://github.com/klaytn/klaytn-wagmi.git",
     "directory": "packages/react"
   },
   "author": "awkweb.eth",
@@ -103,7 +103,7 @@
     "@tanstack/query-sync-storage-persister": "^4.10.1",
     "@tanstack/react-query": "^4.10.1",
     "@tanstack/react-query-persist-client": "^4.10.1",
-    "@klaytn/wagmi-core": "0.1.0",
+    "@klaytn/wagmi-core": "0.1.1",
     "@walletconnect/ethereum-provider": "^1.8.0",
     "abitype": "^0.1.7",
     "use-sync-external-store": "^1.2.0"
